@@ -6,7 +6,6 @@ body {
 
 .carousel {
     display: flex;
-    flex-wrap: nowrap;
     width: 100vw;
     overflow-x: hidden;
 }
