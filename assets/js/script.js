@@ -45,4 +45,5 @@ const changeSection = (action, index) => {
 // Change color
 const changeColor = (event) => {
   sections[currentSectionInView].style.backgroundColor = event.target.value;
+  sections[currentSectionInView].children[0].innerHTML = event.target.value;
 };

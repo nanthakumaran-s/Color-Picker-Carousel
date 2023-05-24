@@ -14,8 +14,18 @@ section {
     min-width: 100vw;
     height: 100vh;
     display: flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
     align-items: center;
     justify-content: center;
+}
+
+section>p {
+    background-color: white;
+    padding: 3px;
+    border-radius: 3px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 #left {
@@ -34,6 +44,10 @@ img {
     width: 50px;
     height: 50px;
     cursor: pointer;
+    background-color: white;
+    padding: 3px;
+    border-radius: 50px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .hide {
