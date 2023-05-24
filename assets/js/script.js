@@ -14,8 +14,6 @@ leftArr?.addEventListener("click", () => changeSection(-1, 0));
 rightArr?.addEventListener("click", () => changeSection(1, 0));
 
 const changeSection = (action, index) => {
-  let prev = currentSectionInView;
-
   if (action === 0) {
     currentSectionInView = index;
   } else {
